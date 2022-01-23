@@ -1,0 +1,23 @@
+npm install redux react-redux
+
+1.create reducer
+
+const countReducer = function (state = 0, action) {
+  switch (action.type) {
+    case "INCREMENT":
+      return state + 1;
+    case "DECREMENT":
+      return state - 1;
+    default:
+      return state;
+  }
+};
+
+
+Step 2: Create a Redux Store
+
+src/index.js
+
+import { createStore } from 'redux';
+...
+let store = createStore(countReducer);

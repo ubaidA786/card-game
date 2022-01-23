@@ -1,0 +1,30 @@
+first install node
+and npm 
+
+node --version
+
+npm --version
+
+npm i -g npx
+
+npm install - g create-react-app
+
+npx create-react-app my-app
+cd my-app
+
+npm start
+
+
+npm install react-router-dom
+npm install react-scripts@5.0.0
+
+https://learncoders.xyz/login-form-in-react-with-laravel/
+
+
+
+@material-ui/core": "^4.11.4",
+"axios": "^0.21.1",
+ "react-dom": "^17.0.2",
+"react-router-dom": "^5.2.0",
+
+npm install @material-ui/icons
